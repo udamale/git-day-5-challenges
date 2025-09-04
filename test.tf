@@ -6,6 +6,10 @@ resource "aws_instance" "test" {
   instance_type = var.instance_type
   subnet_id = var.subnet-id
   tags = {
+
     NIame="TEST-serve"
+
+
+
   }
 }
